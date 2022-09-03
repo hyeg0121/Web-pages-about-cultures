@@ -21,7 +21,7 @@ header .inner {
 	width: 1180px;
 	height: 120px;
 	margin: 0px auto;
-	position: relative; /*자식 absolute 요소의 기준점 설정*/
+	position: relative; 
 }
 header .inner h1 {
 	position: absolute;
