@@ -52,3 +52,36 @@ header .inner #gnb li a:hover {
 	background: #555;
 	color: #fff;
 }
+/* figure */
+figure {
+	width: 100%;
+	height: calc(100vh - 120px); /*전체 브라우저 높이에서 120px을 빼줌 */
+	background: #000;
+	position: relative;
+	overflow: hidden;
+	padding-top: 250px;
+}
+figure img {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+	opacity: 0.3;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+figure .inner{
+	width: 1180px;
+	margin: 0px auto;
+	position: relative;
+}
+figure .inner h1{
+	font: bold 120px/1 "arial";
+	color: #fff;
+	margin-bottom: 20px;
+}
+figure .inner p {
+	font: 30px/1.4 "arial";
+	color: #fff;
+	margin-bottom: 20px;
+}
